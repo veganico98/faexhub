@@ -16,13 +16,13 @@ import {
 
 import Avatar from "../Avatar/Avatar";
 
-import {
-  FieldGroup,
-  FieldLabel,
-  StyledInput,
-  InputWithAdornment,
-  AdornmentButton,
-} from "../Cadastro/Cadastro.styles";
+// import {
+//   FieldGroup,
+//   FieldLabel,
+//   StyledInput,
+//   InputWithAdornment,
+//   AdornmentButton,
+// } from "../Cadastro/Cadastro.styles";
 
 import { Visibility, VisibilityOff } from "@mui/icons-material";
 
@@ -153,7 +153,7 @@ const Login = () => {
         <Title>Entre na sua Conta</Title>
 
         <form onSubmit={handleSubmit}>
-          <FieldGroup>
+          {/* <FieldGroup>
             <FieldLabel>Email</FieldLabel>
             <StyledInput
               type="email"
@@ -182,7 +182,7 @@ const Login = () => {
                 {mostrarSenha ? <VisibilityOff /> : <Visibility />}
               </AdornmentButton>
             </InputWithAdornment>
-          </FieldGroup>
+          </FieldGroup> */}
 
           <LoginButton type="submit">
             Entrar
