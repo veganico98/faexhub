@@ -11,10 +11,12 @@ import {
     StepWrapper,
     StepCircle,
     StepLine,
+    StepLabel,
     FieldGroup,
     FieldLabel,
     StyledInput,
     FormRow,
+    RadioGroup,
     RadioOption,
     InputWithAdornment,
     AdornmentButton,
@@ -23,7 +25,6 @@ import {
     StyledSelect,
     StyledTextarea
                 } from "./Cadastro.styles"
-import { RadioGroup, StepLabel } from "@mui/material";
 
 
 
