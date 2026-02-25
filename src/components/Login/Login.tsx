@@ -25,6 +25,7 @@ import Avatar from "../Avatar/Avatar";
 // } from "../Cadastro/Cadastro.styles";
 
 import { Visibility, VisibilityOff } from "@mui/icons-material";
+import { AdornmentButton, FieldGroup, FieldLabel, InputWithAdornment, StyledInput } from "../Cadastro/Cadastro.styles";
 
 interface AvatarData {
   src: string;
@@ -153,7 +154,7 @@ const Login = () => {
         <Title>Entre na sua Conta</Title>
 
         <form onSubmit={handleSubmit}>
-          {/* <FieldGroup>
+          <FieldGroup>
             <FieldLabel>Email</FieldLabel>
             <StyledInput
               type="email"
@@ -182,7 +183,7 @@ const Login = () => {
                 {mostrarSenha ? <VisibilityOff /> : <Visibility />}
               </AdornmentButton>
             </InputWithAdornment>
-          </FieldGroup> */}
+          </FieldGroup>
 
           <LoginButton type="submit">
             Entrar
